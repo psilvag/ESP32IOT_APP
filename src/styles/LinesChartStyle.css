@@ -1,0 +1,24 @@
+.container_data {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  grid-gap: 15px;
+  margin: 50px auto;
+  padding: 30px;
+
+}
+.container_temp,
+.container_hum {
+  background-color: rgb(40, 19, 112);
+  border-radius: 10px;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(160, 147, 147);
+}
+
+.container_h1 {
+  font-size: 28px;
+  color: white;
+
+}
